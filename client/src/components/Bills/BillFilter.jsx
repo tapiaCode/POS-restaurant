@@ -6,7 +6,7 @@ const BillFilter = ({isvisible ,setIsvisible}) =>{
 
   return (
   <section className={`filterArea ${isvisible?'isvisible':""}`}>
-  <h2>filtros</h2> 
+  <h2>Filtros</h2> 
   <div>
   <div onClick={()=>(filterAll(),setIsvisible(false))} className={`filterBoton ${filterBill == 'All' && 'used'}`}>All</div>
   <div onClick={()=>(filterActive(),setIsvisible(false))} className={`filterBoton ${filterBill == 'Active' && 'used'}`}>Active</div>

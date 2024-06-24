@@ -33,7 +33,7 @@ class ApexDashboardDonutChart extends React.Component {
     render() {
         return (
             <div id="chart" className='h-full flex items-center mt-4'>
-                <ReactApexChart options={this.state.options} series={this.state.series} type="donut" height={200} width={300} />
+                <ReactApexChart options={this.state.options} series={this.state.series} type="donut" height={600} width={300} />
             </div>
         );
     }

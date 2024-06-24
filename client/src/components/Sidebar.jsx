@@ -16,37 +16,37 @@ const Sidebar = () => {
     const imgEmpy  ='https://surgassociates.com/wp-content/uploads/610-6104451_image-placeholder-png-user-profile-placeholder-image-png-286x300.jpg'
     const optionsAside = [
         {
-            name: "Dashboard",
+            name: "Panel de Control",
             icon: dashboardIcon,
             link: "/dashboard/stats"
         },
         {
-            name: "Food & Drinks",
+            name: "Platos y Bebidas",
             icon: hamburgerIcon,
             link: "/dashboard/food-drinks"
         },
         {
-            name: "Messages",
+            name: "Centro de Mensajes",
             icon: messagesIcon,
             link: "/dashboard/messages"
         },
         {
-            name: "Bills",
+            name: "Ventas",
             icon: billIcon,
             link: "/dashboard/bills"
         },
         {
-            name: "Settings",
+            name: "Configuraciones",
             icon: settingsIcon,
             link: "/dashboard/settings"
         },
         {
-            name: "Notifications",
+            name: "Notificaciones",
             icon: notificationIcon,
             link: "/dashboard/notifications"
         },
         {
-            name: "Support",
+            name: "Soporte",
             icon: supportIcon,
             link: "/dashboard/support"
         }
@@ -91,10 +91,10 @@ const Sidebar = () => {
                         </div>
 
                     </div>
-                    <p onClick={()=>navigate('/dashboard/profile')} className="btn">Open profile</p>
+                    <p onClick={()=>navigate('/dashboard/profile')} className="btn">Abrir Perfíl</p>
                 </div>
             </div>
-            <p className="copy">&copy; 2020 SmartPOS App</p>
+            <p className="copy">&copy; 2024 SmartPOS App</p>
         </aside>
     )
 }

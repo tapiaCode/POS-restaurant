@@ -2,17 +2,20 @@
   font-family: Gilroy;
   src: url("../../assets/fuentes/Gilroy-Regular.ttf");
 }
+
 @font-face {
   font-family: GilroyBold;
   src: url("../../assets/fuentes/Gilroy-Bold.ttf");
 }
+
 @font-face {
   font-family: GilroyLight;
   src: url("../../assets/fuentes/Gilroy-Light.ttf");
 }
+
 * {
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
   box-sizing: border-box;
 }
 
@@ -29,7 +32,8 @@
 }
 
 .mainHome-asideLeft {
-  width: 100%;
+  align-items: center;
+  justify-content: center;
   background-color: #d5d5d5;
   padding: 2.5em;
 }
@@ -42,8 +46,11 @@
 }
 
 .mainHome-title {
+  display: flex;
   font-family: GilroyBold;
   font-size: 1.2em;
+  align-items: center;
+  justify-content: center;
   color: #000;
 }
 
@@ -60,6 +67,7 @@
 }
 
 .footerRigth-title {
+  margin-top: 50px;
   font-size: 1em;
   font-family: GilroyLight;
 }
@@ -70,6 +78,10 @@
 }
 
 .mainHome-subtitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
   font-family: Gilroy;
 }
 
@@ -107,16 +119,20 @@
   0% {
     transform: translateX(-2px);
   }
+
   30% {
     transform: translateX(28px);
   }
+
   60% {
     transform: translateX(58px);
   }
+
   90% {
     transform: translateX(-2px);
   }
 }
+
 .dootImage-active {
   width: 1.4em;
   height: 1em;
@@ -130,8 +146,9 @@
 
 .mainHome-asideRigth {
   display: flex;
-  flex-direction: column;
-  padding: 7.7em 6.2em;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5rem;
 }
 
 .mainHome-containerRigth {
@@ -140,28 +157,27 @@
 }
 
 .containerRigth-formArea {
-  padding-top: 2.5em;
-  display: flex;
-  height: 22em;
-  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .otherLinksContainer {
   display: flex;
-  justify-content: space-around;
-  margin: .8em 0;
+  align-items: center;
+  justify-content: center;
 }
 
 .otherLinks {
-  border: 1px solid #b3b3b3;
+  border: 5px solid #b3b3b3;
   gap: .8em;
-  padding: .8em 1.2em;
+  padding: 10px;
   align-items: center;
   border-radius: .8em;
   margin: 0 2.2em;
 }
+
 .otherLinks img {
-  width: 2.2em;
+  width: 2.5em;
 }
 
 .otherLinks {
@@ -173,4 +189,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-}/*# sourceMappingURL=index.css.map */
+}
+
+/*# sourceMappingURL=index.css.map */

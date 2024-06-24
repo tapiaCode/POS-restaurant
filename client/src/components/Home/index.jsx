@@ -1,48 +1,28 @@
 
-import { useEffect, useState } from 'react'
+import React from 'react'
 import './index.css'
 import Loging from '../Forms/Login'
 import Sign from '../Forms/Sign'
+import Carousel from './Carousel'
 import { GoogleLogo, FacebookLogo, shoppingIcon } from "../../assets/icons"
 import useAuth from '../../hooks/useAuth'
+
 const Home = () => {
-  let [showImage, setShowImage] = useState(0)
 
   const { auth, hasAccount, setHasAccount } = useAuth()
-  const imagesLink = [
-    'https://mecaluxes.cdnwm.com/blog/img/inventario-fantasma-stock.1.0.jpg?imwidth=2048',
-    'https://www.campustraining.es/wp-content/uploads/2022/08/CAMPUSBLOG-ventas-0822-715x495.jpg.webp',
-    'https://www.sydle.com/blog/assets/post/que-es-gestion-de-ventas-612fc9d18d4ef23c9511be77/what-is-sales-management.jpg?w=960',
-    'https://www.espacios.media/wp-content/uploads/2022/01/que-es-una-estrategia-de-ventas.jpg'
-  ]
-
-
-  useEffect(() => {
-
-    setInterval(() => {
-      if (showImage < imagesLink.length - 1) {
-        setShowImage(showImage += 1)
-        return
-      } else {
-        setShowImage(showImage = 0)
-      }
-    }, 4000)
-
-
-  }, [])
 
   return (
     <section className='mainHome'>
       <article className='mainHome-asideLeft'>
         <header className='mainHome-baner'>
-          <img className="mainHome-logo" src={shoppingIcon} alt="l" />
+          <img className="mainHome-logo" src={shoppingIcon} alt="" />
           <p className='mainHome-title'>
             Smart<span className="mainHome-title mainHome-title--red">POS</span>
           </p>
         </header>
         <aside className='mainHome-leftCoontent'>
-          <img className='mainHome-images' src={imagesLink[showImage]} alt="" />
-          <p className='mainHome-title'>Manage sales, inventary <br /> and other transactions</p>
+          <Carousel />
+          <p className='mainHome-title'>Administra tus ventas, inventarios y otras transacciones</p>
           <div className='dootImage-container'>
             <div className={`dootImage-active`}></div>
             <div className={`dootImage  `}></div>
@@ -62,7 +42,7 @@ const Home = () => {
 
             {hasAccount ? <Loging /> : <Sign />}
 
-            {hasAccount && <div onClick={() => setHasAccount(false)} className='inputButton inputButton-sign'> <p className='mainHome-title'>Sign in</p></div>}
+            {hasAccount && <div onClick={() => setHasAccount(false)} className='inputButton inputButton-sign'> <p className='mainHome-title'>Registrarse</p></div>}
 
           </section>
           <section className='mainHome-footerRigth'>
@@ -70,21 +50,17 @@ const Home = () => {
               <div className='otherLinksContainer otherLinks'>
                 <img src={GoogleLogo} alt="" />
 
-                <p className='mainHome-title mainHome-title--SM'>loging with Google</p>
+                <p className='mainHome-title mainHome-title--SM'>Iniciar Sesión con Google</p>
               </div>
               <div className='otherLinksContainer otherLinks'>
                 <img src={FacebookLogo} alt="" />
-                <p className='mainHome-title mainHome-title--SM'>loging with facebook </p>
+                <p className='mainHome-title mainHome-title--SM'>iniciar sesión con Facebook</p>
               </div>
             </div>
-            <p className='footerRigth-title footerRigth-title--blue'>Forgeret password</p>
-            <p className='footerRigth-title '>© 2020 SmartPOS App</p>
+            <p className='footerRigth-title '>© 2024 SmartPOS App</p>
           </section>
-
         </div>
-
       </article>
-
     </section>
   )
 }

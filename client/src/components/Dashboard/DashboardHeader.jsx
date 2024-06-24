@@ -7,9 +7,9 @@ const DashboardHeader = () => {
                     <a className="arrow-left" href="index.html">
                         <img src={arrowLeftIcon} alt=""/>
                     </a>
-                    <p>Dashboard</p>
+                    <p>Panel de Control</p>
                     <img className="less-icon" src={lessIcon} alt="menor icon"/>
-                    <p>Sales statistics</p>
+                    <p>Estadisticas de Ventas</p>
                 </div>
                 <div className="dashboard-search">
                     <img src={notificationIcon} alt=""/>

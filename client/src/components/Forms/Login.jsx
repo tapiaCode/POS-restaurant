@@ -5,28 +5,28 @@ import useAuth from '../../hooks/useAuth';
 import { USER_DATA } from '../../const/userConst';
 import { useNavigate } from "react-router-dom"
 
-function Loging()  {
+function Loging() {
   const navigate = useNavigate()
   const [infoAuth, setInfoAuth] = useState({});
-  const { loging }= useAuth()
+  const { loging } = useAuth()
 
-  const verificateUser = (loginUser)=>{
+  const verificateUser = (loginUser) => {
     const user = USER_DATA.find((user) => user.username.toLowerCase() === loginUser.username.toLowerCase());
 
     if (!user) {
       console.log('Nombre de usuario no encontrado');
       return;
     }
-  
+
     if (user.password === loginUser.password) {
       loging(user);
       navigate('/dashboard');
     } else {
       console.log('Contraseña incorrecta');
     }
-    
+
   }
-  
+
   const handleInputChange = (event) => {
     const { name, value } = event.target;
     setInfoAuth((prevProps) => ({
@@ -37,48 +37,46 @@ function Loging()  {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    
+
     verificateUser(infoAuth)
   };
 
 
-    return (
-      <div>
-        
-        <form className='inputForm-container' onSubmit={handleSubmit}>
-          <div>
-            <input
+  return (
+    <div>
+
+      <form className='inputForm-container' onSubmit={handleSubmit}>
+        <div>
+          <input
             className='inputForm'
-              type="text"
-              name="username"
-              placeholder='Username'
-              onChange={handleInputChange}
-              required
-            />
-          </div>
-          <div>
-            
-            <input
+            type="text"
+            name="username"
+            placeholder='Usuario'
+            onChange={handleInputChange}
+            required
+          />
+        </div>
+        <div>
+
+          <input
             className='inputForm'
-              type="password"
-              name="password"
-              placeholder='Password'
-              onChange={handleInputChange}
-              required
-            />
-          </div>
-          <button
-          
+            type="password"
+            name="password"
+            placeholder='Contraseña'
+            onChange={handleInputChange}
+            required
+          />
+        </div>
+        <button
+
           className='inputButton'
-          
-          >
-            
-            <p className='mainHome-title'>Login</p></button>
-          <p>or</p>
-        </form>
-      </div>
-    );
-  }
+
+        >
+          <p className='mainHome-title'>Ingresar</p></button>
+      </form>
+    </div>
+  );
+}
 
 
 export default Loging;
