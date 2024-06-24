@@ -1,5 +1,5 @@
 import './App.css'
-import { Routes,Route,BrowserRouter, Navigate } from 'react-router-dom'
+import { Routes, Route, BrowserRouter, Navigate } from 'react-router-dom'
 import DashboardPage from './pages/DashboardPage'
 import Dashboard from './components/Dashboard/Dashboard'
 import Bills from './components/Bills/Bills'
@@ -20,34 +20,34 @@ import Support from './components/Support/Support'
 import Messages from './components/Messages/Messages'
 
 function App() {
-    const { auth }= useAuth()
+    const { auth } = useAuth();
 
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={<Home/>} />
+                <Route path="/" element={<Home />} />
                 <Route path="/about" element={<h1>About</h1>} />
-                <Route path="/dashboard" element={<ProtectedRoute isAllowed={auth}/>}>
-                    <Route path='/dashboard' element={<DashboardPage/>}>
-                        <Route index={true} element={<Dashboard/>} />
-                        <Route path="/dashboard/settings" element={<Settings/>} />
-                        <Route path="/dashboard/profile" element={<Profile/>} />
+                <Route path="/dashboard" element={<ProtectedRoute isAllowed={auth} />}>
+                    <Route path='/dashboard' element={<DashboardPage />}>
+                        <Route index={true} element={<Dashboard />} />
+                        <Route path="/dashboard/settings" element={<Settings />} />
+                        <Route path="/dashboard/profile" element={<Profile />} />
                         <Route path="/dashboard/notifications" element={<h2>Notifications dashboard</h2>} />
-                        <Route path="/dashboard/messages" element={<Messages/>} />
+                        <Route path="/dashboard/messages" element={<Messages />} />
                         <Route path="/dashboard/employees" element={<h2>Employees dashboard</h2>} />
-                        <Route path="/dashboard/food-drinks" element={<FoodsContainer/>}>
-                            <Route index={true} element={<CategoriesFoods/>} />
-                            <Route path="/dashboard/food-drinks/burgers" element={<BurgersContainer/>} />
-                            <Route path='/dashboard/food-drinks/pizzas' element={<PizzasContainer/>} />
-                            <Route path='/dashboard/food-drinks/drinks' element={<DrinksContainer/>} />
-                            <Route path='/dashboard/food-drinks/wok' element={<WokContainer/>} />
-                            <Route path='/dashboard/food-drinks/pasta' element={<PastaContainer/>} />
-                            <Route path='/dashboard/food-drinks/desserts' element={<DessertsContainer/>} />
-                            <Route path='/dashboard/food-drinks/*' element={<Navigate to='/dashboard/food-drinks'/>} />
+                        <Route path="/dashboard/food-drinks" element={<FoodsContainer />}>
+                            <Route index={true} element={<CategoriesFoods />} />
+                            <Route path="/dashboard/food-drinks/burgers" element={<BurgersContainer />} />
+                            <Route path='/dashboard/food-drinks/pizzas' element={<PizzasContainer />} />
+                            <Route path='/dashboard/food-drinks/drinks' element={<DrinksContainer />} />
+                            <Route path='/dashboard/food-drinks/wok' element={<WokContainer />} />
+                            <Route path='/dashboard/food-drinks/pasta' element={<PastaContainer />} />
+                            <Route path='/dashboard/food-drinks/desserts' element={<DessertsContainer />} />
+                            <Route path='/dashboard/food-drinks/*' element={<Navigate to='/dashboard/food-drinks' />} />
                         </Route>
-                        <Route path="/dashboard/bills" element={<Bills/>} />
-                        <Route path="/dashboard/support" element={<Support/>} />
-                        <Route path="/dashboard/*" element={<Navigate to='/dashboard'/>} />
+                        <Route path="/dashboard/bills" element={<Bills />} />
+                        <Route path="/dashboard/support" element={<Support />} />
+                        <Route path="/dashboard/*" element={<Navigate to='/dashboard' />} />
                     </Route>
                 </Route>
                 <Route path="*" element={<h1>Not Found </h1>} />
