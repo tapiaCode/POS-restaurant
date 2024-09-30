@@ -167,8 +167,7 @@ a {
 
 .billContainer {
   padding-top: 40px;
-  width: 600px;
-  height: 100vh;
+
 }
 
 .billContainer-svg {
@@ -308,10 +307,9 @@ a {
 }
 
 .billDetails {
-  min-width: 46.25em;
+  min-width: 40em;
   background-color: #b9b9b968;
-  height: auto;
- 
+  padding-bottom: 20px; 
   right: 0;
   transition: 0.5s ease-in-out;
   z-index: 99;
@@ -412,6 +410,8 @@ a {
 
 .billBigBox{
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .OrderViewsContainer{
   transition: .1s ease-in;
