@@ -1,7 +1,7 @@
 
 const BillsPage = () => {
     return (
-        <div>BillsPage</div>
+        <div>Página de facturas</div>
     )
 }
 

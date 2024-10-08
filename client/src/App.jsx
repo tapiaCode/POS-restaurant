@@ -26,15 +26,15 @@ function App() {
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="/about" element={<h1>About</h1>} />
+                <Route path="/about" element={<h1>Acerca De</h1>} />
                 <Route path="/dashboard" element={<ProtectedRoute isAllowed={auth} />}>
                     <Route path='/dashboard' element={<DashboardPage />}>
                         <Route index={true} element={<Dashboard />} />
                         <Route path="/dashboard/settings" element={<Settings />} />
                         <Route path="/dashboard/profile" element={<Profile />} />
-                        <Route path="/dashboard/notifications" element={<h2>Notifications dashboard</h2>} />
+                        <Route path="/dashboard/notifications" element={<h2>Panel de Notificaciones</h2>} />
                         <Route path="/dashboard/messages" element={<Messages />} />
-                        <Route path="/dashboard/employees" element={<h2>Employees dashboard</h2>} />
+                        <Route path="/dashboard/employees" element={<h2>Panel de empleados</h2>} />
                         <Route path="/dashboard/food-drinks" element={<FoodsContainer />}>
                             <Route index={true} element={<CategoriesFoods />} />
                             <Route path="/dashboard/food-drinks/burgers" element={<BurgersContainer />} />
@@ -50,7 +50,7 @@ function App() {
                         <Route path="/dashboard/*" element={<Navigate to='/dashboard' />} />
                     </Route>
                 </Route>
-                <Route path="*" element={<h1>Not Found </h1>} />
+                <Route path="*" element={<h1>No Encontrado </h1>} />
             </Routes>
         </BrowserRouter>
     )

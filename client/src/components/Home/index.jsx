@@ -17,7 +17,7 @@ const Home = () => {
         <header className='mainHome-baner'>
           <img className="mainHome-logo" src={shoppingIcon} alt="" />
           <p className='mainHome-title'>
-            Smart<span className="mainHome-title mainHome-title--red">POS</span>
+            Río <span className="mainHome-title mainHome-title--red">Burger</span>
           </p>
         </header>
         <aside className='mainHome-leftCoontent'>
@@ -36,7 +36,7 @@ const Home = () => {
       <article className='mainHome-asideRigth'>
         <div className='mainHome-containerRigth'>
           <p className='mainHome-title mainHome-title--XL' >Bienvenido de Nuevo!</p>
-          <p className='mainHome-subtitle md' > testing [ user: admin ,juan ,ana. pass: 123456 ]</p>
+          <p className='mainHome-subtitle md' > Usuarios de Prueba [ andrea, jose, yulemi ] contra: 12345</p>
           {auth && <p>estas dentro</p>}
           <section className='containerRigth-formArea' >
 
@@ -57,7 +57,7 @@ const Home = () => {
                 <p className='mainHome-title mainHome-title--SM'>iniciar sesión con Facebook</p>
               </div>
             </div>
-            <p className='footerRigth-title '>© 2024 SmartPOS App</p>
+            <p className='footerRigth-title '>© 2024 RioBurger App</p>
           </section>
         </div>
       </article>

@@ -60,7 +60,7 @@ const Sidebar = () => {
                 <header className='mainHome-baner'>
                     <img className="mainHome-logo" src={shoppingIcon} alt="l"/>
                     <p className='mainHome-title'>
-                        Smart<span className="mainHome-title mainHome-title--red">POS</span>
+                        Río <span className="mainHome-title mainHome-title--red">Burger</span>
                     </p>
                 </header>
             <div className="nav-container">
@@ -85,16 +85,16 @@ const Sidebar = () => {
                             <img src={auth.image? auth.image:imgEmpy} alt="foto de perfil"/>
                         </picture>
                         <div className="aside-profile-details">
-                        <p>id# {auth.id}</p>
-                        <h3>{auth.customname}</h3>
-                        <p> rol:{auth.role}</p>
+                        <p>Id# {auth.id}</p>
+                        <h3 className="text-center">{auth.customname}</h3>
+                        <p> Rol : {auth.role}</p>
                         </div>
 
                     </div>
                     <p onClick={()=>navigate('/dashboard/profile')} className="btn">Abrir Perfíl</p>
                 </div>
             </div>
-            <p className="copy">&copy; 2024 SmartPOS App</p>
+            <p className="copy">&copy; 2024 RioBurger App</p>
         </aside>
     )
 }

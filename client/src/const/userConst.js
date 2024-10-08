@@ -1,30 +1,30 @@
 export const USER_DATA =[ {
   id:"1",
-  username:'admin',
-  customname:"Numero '1' admin",
+  username:'andrea',
+  customname:"Andrea Tapia Martinez",
   email:"admin@fake.com",
-  image:'https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60',
-  password:'123456',
+  image:'./kangre.png',
+  password:'12345',
   role:'admin'
 
 },
 {
   id:"2",
-  username:'juan',
-  customname:"juan Perez",
+  username:'jose',
+  customname:"Jose Manuel Tapia",
   email:"juan@fake.com",
   image:'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80',
-  password:'123456',
+  password:'12345',
   role:'vendor'
 
 },
 {
   id:"3",
-  username:'ana',
-  customname:"ana Altagracia",
+  username:'yulemi',
+  customname:"Yulemi Flores Robstentowsky",
   email:"ana@fake.com",
   image:"https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
-  password:'123456',
+  password:'12345',
   role:'vendor'
 
 }
