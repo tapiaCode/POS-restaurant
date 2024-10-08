@@ -41,29 +41,29 @@ const Profile = () =>{
           </div>
           <main className='profile-rank'>
             <div className='profile-info'>
-            <p className='profile-title '>$1,600</p>
-            <p className='profile-subtitle '>last seld</p>
+            <p className='profile-title '>BS.1,600</p>
+            <p className='profile-subtitle '>Ventas del Mes</p>
             </div>
             <div className='profile-info'>
-            <p className='profile-title '>54</p>
-            <p className='profile-subtitle '>Rank</p>
+            <p className='profile-title '>18</p>
+            <p className='profile-subtitle '>Edad</p>
             </div>
             
           </main>
           <div>
             <div className='profile-settings ' onClick={()=>showSection('Personal')}>
               <img className="profileImg sm" src={user} alt="ssf" />
-            <p className={section =='Personal'?"profile-title":"profile-title-lg"} >Personal Information</p>
+            <p className={section =='Personal'?"profile-title":"profile-title-lg"} >Información Personal</p>
             {section =='Personal' && <div className='profile-bar ' ></div>}
             </div>
             <div className='profile-settings ' onClick={()=>showSection('Login')} >
               <img className="profileImg sm" src={lock} alt="ssf" />
-            <p className={section =='Login'?"profile-title":"profile-title-lg"} >Login & Password</p>
+            <p className={section =='Login'?"profile-title":"profile-title-lg"} >Sesión & Contraseña</p>
           {  section =='Login' &&   <div className='profile-bar ' ></div>}
             </div>
             <div className='profile-settings ' onClick={()=>callLogOut()}>
               <img className="profileImg sm" src={door} alt="ssf" />
-            <p className={`profile-title-lg `} >Log out</p>
+            <p className={`profile-title-lg `} >Cerrar Sesión</p>
             {/* <div className='profile-bar ' ></div> */}
             </div>
 
@@ -71,7 +71,7 @@ const Profile = () =>{
         </div>
         <div className='profile-settings botton mt-0'>
             <img className="profileImg sm" src={trash} alt="ssf" />
-          <p className={`profile-title-lg red`} >Delete account</p>
+          <p className={`profile-title-lg red`} >Borrar Cuenta</p>
           
           </div>
       </div>

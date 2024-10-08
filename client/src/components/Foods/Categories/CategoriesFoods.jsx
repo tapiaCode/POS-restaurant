@@ -8,7 +8,7 @@ import { Link } from "react-router-dom"
 const categoriesFoodsLabels = [
     {
         id: 1,
-        name: "Burgers",
+        name: "Hamburguesas",
         img: burgerImgCategory,
         path: "/dashboard/food-drinks/burgers"
     },
@@ -20,25 +20,25 @@ const categoriesFoodsLabels = [
     },
     {
         id: 3,
-        name: "Wok",
+        name: "Sopas",
         img: wokImgCategory,
         path: "/dashboard/food-drinks/wok"
     },
     {
         id: 4,
-        name: "Pasta",
+        name: "Tallarines",
         img: pastaImgCategory,
         path: "/dashboard/food-drinks/pasta"
     },
     {
         id: 5,
-        name: "Desserts",
+        name: "Postres",
         img: dessertsImgCategory,
         path: "/dashboard/food-drinks/desserts"
     },
     {
         id: 6,
-        name: "Cold Drinks",
+        name: "Sodas y refrescos",
         img: drinksImgCategory,
         path: "/dashboard/food-drinks/drinks"
     }
@@ -47,7 +47,7 @@ const categoriesFoodsLabels = [
 const CategoriesFoods = () => {
     return (
         <section className="h-full">
-            <h2 className="text-black font-GilroyBold text-4xl p-0 mb-10">Categories</h2>
+            <h2 className="text-black font-GilroyBold text-4xl p-0 mb-10">Categorias</h2>
             <div className=" flex justify-center gap-8 flex-wrap items-center md:max-w-[78%] mx-auto">
                 {
                     categoriesFoodsLabels.map((category) => (

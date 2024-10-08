@@ -1,7 +1,7 @@
 export const dataBurgerFoods = [
     {
         id: 1,
-        name: "Burger",
+        name: "La Simplesita",
         size: "200g",
         price: 10,
     },
@@ -13,13 +13,13 @@ export const dataBurgerFoods = [
     },
     {
         id: 3,
-        name: "Chicken-Deluxe",
+        name: "De Pollito Criollo",
         size: "500g",
         price: 25,
     },
     {
         id: 4,
-        name: "Big John",
+        name: "la Machu",
         size: "500g",
         price: 27,
     },
@@ -31,7 +31,7 @@ export const dataBurgerFoods = [
     },
     {
         id: 6,
-        name: "Classic Burger",
+        name: "Clasica Burger",
         size: "200g",
         price: 10,
     }
@@ -41,37 +41,37 @@ export const dataPizzaFoods = [
     {
         id: 1,
         name: "Pizza Margarita",
-        size: "Medium",
+        size: "Mediano",
         price: 10,
     },
     {
         id: 2,
         name: "Pepperoni Pizza",
-        size: "Large",
+        size: "Grande",
         price: 15,
     },
     {
         id: 3,
-        name: "Vegetarian Pizza",
-        size: "Medium",
+        name: "Vegetariana Pizza",
+        size: "Mediano",
         price: 12,
     },
     {
         id: 4,
-        name: "Hawaiian Pizza",
-        size: "Large",
+        name: "Hawaiana Pizza",
+        size: "Grande",
         price: 17,
     },
     {
         id: 5,
-        name: "Supreme Pizza",
-        size: "Large",
+        name: "Suprema Pizza",
+        size: "Grande",
         price: 20,
     },
     {
         id: 6,
-        name: "Cheese Pizza",
-        size: "Medium",
+        name: "Pizza de Kjacha",
+        size: "Mediano",
         price: 10,
     }
 ]
@@ -79,38 +79,38 @@ export const dataPizzaFoods = [
 export const dataWokFoods = [
     {
         id: 1,
-        name: "Wok Chicken",
-        size: "Medium",
+        name: "Sopa de Pollo",
+        size: "Mediano",
         price: 10,
     },
     {
         id: 2,
-        name: "Wok Beef",
-        size: "Large",
+        name: "Caldo de Cardan",
+        size: "Grande",
         price: 15,
     },
     {
         id: 3,
-        name: "Wok Pork",
-        size: "Medium",
+        name: "Sopa de Riñon",
+        size: "Mediano",
         price: 12,
     },
     {
         id: 4,
-        name: "Wok Shrimp",
-        size: "Large",
+        name: "Sopa de Pescado",
+        size: "Grande",
         price: 17,
     },
     {
         id: 5,
-        name: "Wok Vegetarian",
-        size: "Large",
+        name: "Sopa Vegetariana",
+        size: "Grande",
         price: 20,
     },
     {
         id: 6,
-        name: "Wok Chicken",
-        size: "Medium",
+        name: "Caldo de Nervio Mixto",
+        size: "Mediano",
         price: 10,
     
     }
@@ -118,38 +118,38 @@ export const dataWokFoods = [
 export const dataPastaFoods = [
     {
         id: 1,
-        name: "Pasta Carbonara",
-        size: "Medium",
+        name: "Tallarin de Pollo",
+        size: "Mediano",
         price: 10,
     },
     {
         id: 2,
-        name: "Pasta Bolognese",
-        size: "Large",
+        name: "Tallarin de Chancho",
+        size: "Grande",
         price: 15,
     },
     {
         id: 3,
-        name: "Pasta Vegetarian",
-        size: "Medium",
+        name: "Tallarin de Res",
+        size: "Mediano",
         price: 12,
     },
     {
         id: 4,
-        name: "Pasta Chicken",
-        size: "Large",
+        name: "Tallarin de Conejo",
+        size: "Grande",
         price: 17,
     },
     {
         id: 5,
-        name: "Pasta Shrimp",
-        size: "Large",
+        name: "Pasta Alfredo",
+        size: "Grande",
         price: 20,
     },
     {
         id: 6,
         name: "Pasta Carbonara",
-        size: "Medium",
+        size: "Mediano",
         price: 10,
     }
 ]
@@ -158,37 +158,37 @@ export const dataDrinksFoods = [
     {
         id: 1,
         name: "Coca-Cola",
-        size: "Medium",
+        size: "Mediano",
         price: 10,
     },
     {
         id: 2,
         name: "Fanta",
-        size: "Large",
+        size: "Grande",
         price: 15,
     },
     {
         id: 3,
         name: "Sprite",
-        size: "Medium",
+        size: "Mediano",
         price: 12,
     },
     {
         id: 4,
         name: "Pepsi",
-        size: "Large",
+        size: "Grande",
         price: 17,
     },
     {
         id: 5,
         name: "7Up",
-        size: "Large",
+        size: "Grande",
         price: 20,
     },
     {
         id: 6,
         name: "Coca-Cola",
-        size: "Medium",
+        size: "Mediano",
         price: 10,
     }
 ]
@@ -196,38 +196,38 @@ export const dataDrinksFoods = [
 export const dataDessertsFoods = [
     {
         id: 1,
-        name: "Chocolate Cake",
-        size: "Medium",
+        name: "Gelatina de colores",
+        size: "Mediano",
         price: 10,
     },
     {
         id: 2,
-        name: "Cheese Cake",
-        size: "Large",
+        name: "Arroz con leche",
+        size: "Grande",
         price: 15,
     },
     {
         id: 3,
-        name: "Ice Cream",
-        size: "Medium",
+        name: "Heladito de leche",
+        size: "Mediano",
         price: 12,
     },
     {
         id: 4,
-        name: "Chocolate Ice Cream",
-        size: "Large",
+        name: "Fresas con Crema",
+        size: "Grande",
         price: 17,
     },
     {
         id: 5,
-        name: "Strawberry Ice Cream",
-        size: "Large",
+        name: "Pie con Mermelada de frutilla",
+        size: "Grande",
         price: 20,
     },
     {
         id: 6,
-        name: "Chocolate Cake",
-        size: "Medium",
+        name: "Budin de Chocolate",
+        size: "Mediano",
         price: 10,
     }
 ]

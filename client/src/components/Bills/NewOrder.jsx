@@ -76,7 +76,7 @@ const NewOrder = ({setNewOrder}) =>{
       </div>
       
     </div>
-    {isFull && <div className="newOrderNotification"><p>El Salon esta full.</p></div>}
+    {isFull && <div className="newOrderNotification"><p>El Salon esta full</p></div>}
     {hasTable && <div className="newOrderNotification"><p>Seleccione una mesa</p></div>}
     </section>
           {isLocal?
@@ -139,7 +139,7 @@ const CreateButton = () =>{
 
   return (
 
-<button className='inputButton'> <p className='mainHome-title'>Add Order</p></button>
+<button className='inputButton'> <p className='mainHome-title'>Añadir Orden</p></button>
           
 
 )}

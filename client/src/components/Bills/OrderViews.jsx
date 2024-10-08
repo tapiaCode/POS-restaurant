@@ -14,7 +14,7 @@ const OrderViews = ({selectOrder,order,setCurrentTable  ,currectTable, id,setOrD
     onClick={()=>selectOrder(order.id,id)}> 
     <div>
       <div className='OrderViewsDectails'> 
-        <p className='OrderViewsTitle'>Order #{order.id}</p>
+        <p className='OrderViewsTitle'>Orden #{order.id}</p>
         <div className='statusDectails'  ><span className={`led ${order.status == "Ereased"? "deleted":(order.status?"Active":"Desiable")}`}></span> <p>{order.status == "Ereased"? "deleted":(order.status?"Active":"Desiable")}</p> </div>
         
         
@@ -26,7 +26,7 @@ const OrderViews = ({selectOrder,order,setCurrentTable  ,currectTable, id,setOrD
 
     </div>
     <div>
-      <p className='OrderViewsTotalPrice'>$42</p>
+      <p className='OrderViewsTotalPrice'>Bs. 42</p>
       <p>{order.date}</p>
     </div>
     </div>

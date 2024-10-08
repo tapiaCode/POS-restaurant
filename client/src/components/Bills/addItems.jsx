@@ -81,7 +81,7 @@ const addToList =()=>{
     {(resaltItems != '') && <div className="AddItemsView-selectArea">
     <h2 className="AddItemsView-title">{resaltItems}</h2>
     <div className="AddItemsView-category-container"> 
-    {(resaltItems != '') && (<div className=" userInfo-name boton-add" onClick={()=>addToList()}><p>Add</p></div>)}
+    {(resaltItems != '') && (<div className=" userInfo-name boton-add" onClick={()=>addToList()}><p>Añadir</p></div>)}
     {/* {seletItems.map((item, index)=>(
       <div onClick={()=>(setResaltItems(item.name))}  className={`AddItemsView-category AddItemsView-Items ${resaltItems == item.name ? "categorySelected":''}`} key={index} > <p className="AddItemsView-text">{item.name}</p> <p>${item.price}</p>  </div>
     ))} */}
@@ -89,7 +89,7 @@ const addToList =()=>{
     </div>}
   </main>
   <section className="AddItemsView-Botones-Container">
-    {(seletCategory != '') && <div className=" userInfo-name  boton-clear" onClick={()=>resteOrder()}><p>Clear All</p></div>}
+    {(seletCategory != '') && <div className=" userInfo-name  boton-clear" onClick={()=>resteOrder()}><p>Limpiar Todo</p></div>}
   </section>
 </section>
 )}

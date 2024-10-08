@@ -6,7 +6,7 @@ const PastaContainer = () => {
     return (
         <section className="md:px-10">
             <header>
-                <h2 className="font-GilroyBold text-4xl text-black mb-3">Burgers</h2>
+                <h2 className="font-GilroyBold text-4xl text-black mb-3">Tallarines</h2>
             </header>
             <div className="grid md:grid-cols-4 gap-8">
                 {

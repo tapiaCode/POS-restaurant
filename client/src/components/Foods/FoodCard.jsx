@@ -17,7 +17,7 @@ const FoodCard = ({
       />
       <h2 className="font-bold text-black text-xl md:text-2xl">{food.name}</h2>
       <p className="italic text-gray-500">{food.size}</p>
-      <p className="text-primary text-2xl font-bold">$ {food.price}</p>
+      <p className="text-primary text-2xl font-bold">Bs. {food.price}</p>
     </div>
     )
 }

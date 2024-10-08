@@ -24,10 +24,10 @@ export const Pasta = [];
 export const Tacos = [];
 export const Bebidas = [];
 
-Hamburger.push(new Items("Bacon",15));
-Hamburger.push(new Items("American Quesses",17));
-Hamburger.push(new Items("Vegan",22));
-Hamburger.push(new Items("Pinacle and Chiken",19))
+Hamburger.push(new Items("Chorizo",15));
+Hamburger.push(new Items("Kjacha",17));
+Hamburger.push(new Items("Sopa Vegana",22));
+Hamburger.push(new Items("Tallarin de pollo",19))
 
 Pizza.push(new Items("Jamon y Queso",22));
 Pizza.push(new Items("Completa",32));
