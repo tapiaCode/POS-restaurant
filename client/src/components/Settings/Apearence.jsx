@@ -8,16 +8,16 @@ const ApearenceSettings = ({setCurrentSettings}) =>{
   return (
 
 <section className="settingContainer right-side ">
-     <p className="right-side-title">Appearence</p>
+     <p className="right-side-title">Apariencia</p>
       <div>
         <div>
-        <p className="toglee-title">Themes</p>
+        <p className="toglee-title">Temas</p>
         <div className="appearnce-container">
-          <p>Light</p>
+          <p>Claro</p>
         <TogleeButton active={false}/> 
         </div>
         <div className="appearnce-container">
-          <p>Dark</p>
+          <p>Oscuro</p>
         <TogleeButton active={false}/> 
         </div>
         </div>
@@ -27,13 +27,13 @@ const ApearenceSettings = ({setCurrentSettings}) =>{
           <p>FullScreen</p>
           <div>
             <select name="" id="">
-              <option value="yes">yes</option>
+              <option value="yes">si</option>
               <option value="no">no</option>
             </select>
           </div>
         </div>
         <div className="appearnce-container">
-          <p>Screen</p>
+          <p>Pantalla</p>
           <div>
             <select name="" id="">
               <option value="yes">1080x720</option>

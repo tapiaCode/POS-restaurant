@@ -23,13 +23,13 @@ const Profile = () =>{
 
   return (
     <div className="flex flex-col h-[95%]">
-       <Cabecera area={'Setting'} subArea={"Profile"}/>
+       <Cabecera area={'Perfil de Usuario'} subArea={"Perfil"}/>
    
     <section className="profileContainer flex-1">
       <div  className="profileCard h-full justify-between">
         <div className="flex flex-col">
           <div className="profileImgContainer ">
-            <img className="profileImg" src={auth.image} alt="" />
+            <img className="profileImg" src="../kangre.png" alt="" />
             
             <div onClick={()=>setChangePicture(!changePicture)} className="profileImgEdit" >
               <img src={pen} alt="" />

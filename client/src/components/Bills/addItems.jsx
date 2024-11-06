@@ -74,7 +74,7 @@ const addToList =()=>{
     <h2 className="AddItemsView-title">{seletCategory}</h2>
     <div className="AddItemsView-category-container"> 
     {seletItems.map((item, index)=>(
-      <div onClick={()=>selectOneItem(item)}  className={`AddItemsView-category AddItemsView-Items ${resaltItems == item.name ? "categorySelected":''}`} key={index} > <p className="AddItemsView-text">{item.name}</p> <p>${item.price}</p>  </div>
+      <div onClick={()=>selectOneItem(item)}  className={`AddItemsView-category AddItemsView-Items ${resaltItems == item.name ? "categorySelected":''}`} key={index} > <p className="AddItemsView-text">{item.name}</p> <p>Bs. {item.price}</p>  </div>
     ))}
     </div>
     </div>

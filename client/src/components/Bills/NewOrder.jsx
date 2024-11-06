@@ -96,8 +96,8 @@ const NewOrder = ({setNewOrder}) =>{
             <input
             className='inputForm'
               type="text"
-              name="guests"
-              placeholder='guests'
+              name="cliente"
+              placeholder='cliente'
               required
               onChange={handleInputChange}
             />

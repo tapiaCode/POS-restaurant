@@ -15,13 +15,13 @@ const OrderViews = ({selectOrder,order,setCurrentTable  ,currectTable, id,setOrD
     <div>
       <div className='OrderViewsDectails'> 
         <p className='OrderViewsTitle'>Orden #{order.id}</p>
-        <div className='statusDectails'  ><span className={`led ${order.status == "Ereased"? "deleted":(order.status?"Active":"Desiable")}`}></span> <p>{order.status == "Ereased"? "deleted":(order.status?"Active":"Desiable")}</p> </div>
+        <div className='statusDectails'  ><span className={`led ${order.status == "Ereased"? "deleted":(order.status?"Active":"Desiable")}`}></span> <p>{order.status == "Ereased"? "Eliminado":(order.status?"Activo":"Inactivo")}</p> </div>
         
         
       </div>
       <div className='OrderViewsDectails'>
-        <p>{isLocal? `Table ${order.table}`:"Delivery"} </p>
-        <p>{isLocal?`guest ${order.guests}`:`for ${order.customers}`} </p>
+        <p>{isLocal? `Mesa ${order.table}`:"Delivery"} </p>
+        <p>{isLocal?`Cliente ${order.guests}`:`para ${order.customers}`} </p>
       </div>
 
     </div>

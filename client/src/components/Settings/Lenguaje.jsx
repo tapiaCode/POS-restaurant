@@ -23,9 +23,9 @@ const LenguajeSettings = ({setCurrentSettings}) =>{
         <option value="1"> 🇺🇸   English</option>
       </select>
      </div>
-     <p className="toglee-title">Detectect from preference.</p>
+     <p className="toglee-title">Detectado segun Preferencias</p>
         <div className="appearnce-container">
-          <p>keyboard standar</p>
+          <p>teclado estandar</p>
         <TogleeButton active={true}/> 
         </div>
         <SavedButton setCurrentSettings={setCurrentSettings}/>
