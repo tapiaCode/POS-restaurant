@@ -1,3 +1,8 @@
+import alita from '../../assets/img/rio/alita.png';
+import broaster from '../../assets/img/rio/broaster.png';
+import pipo from '../../assets/img/rio/pipo.png';
+import locro from '../../assets/img/rio/locro.png';
+
 export const employees = [
     {
         name: 'Roberto Paniagua',
@@ -30,21 +35,21 @@ export const foods = [
     {
         name: 'Pollo Broaster',
         price: 10,
-        image: '../assets/img/rio/broaster.png'
+        image: broaster
     },
     {
         name: 'Pipocas de Pollo',
         price: 15,
-        image: 'https://images.unsplash.com/photo-1586816001966-79b736744398?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aGFtYnVyZ3VlcnxlbnwwfHwwfHx8MA%3D%3D'
+        image: pipo
     },
     {
         name: 'Alitas a la Canasta',
         price: 5,
-        image: 'https://images.unsplash.com/photo-1586816001966-79b736744398?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aGFtYnVyZ3VlcnxlbnwwfHwwfHx8MA%3D%3D'
+        image: alita
     },
     {
         name: 'Locros',
         price: 7,
-        image: 'https://images.unsplash.com/photo-1586816001966-79b736744398?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aGFtYnVyZ3VlcnxlbnwwfHwwfHx8MA%3D%3D'
+        image: locro
     }
 ]

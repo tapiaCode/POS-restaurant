@@ -31,7 +31,7 @@ const Home = () => {
         </header>
         <aside className='mainHome-leftCoontent'>
           <Carousel />
-          <p className='mainHome-title'>Administra tus ventas, inventarios y otras transacciones</p>
+          <p className='mainHome-title'>Sistema de Ventas Pollos Río Arriba</p>
           <div className='dootImage-container'>
             <div className={`dootImage-active`}></div>
             <div className={`dootImage  `}></div>
