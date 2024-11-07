@@ -6,6 +6,10 @@ import Sign from '../Forms/Sign'
 import Carousel from './Carousel'
 import { GoogleLogo, FacebookLogo, shoppingIcon } from "../../assets/icons"
 import useAuth from '../../hooks/useAuth'
+import pollos from '../../assets/img/rio/pollos.png';
+import rio from '../../assets/img/rio/rio.png';
+import arriba from '../../assets/img/rio/arriba.png';
+import elPollito from '../../assets/img/rio/elPollito.png';
 
 const Home = () => {
 
@@ -15,10 +19,15 @@ const Home = () => {
     <section className='mainHome'>
       <article className='mainHome-asideLeft'>
         <header className='mainHome-baner'>
-          <img className="mainHome-logo" src={shoppingIcon} alt="" />
-          <p className='mainHome-title'>
-            Río <span className="mainHome-title mainHome-title--red">Burger</span>
-          </p>
+        <img className='pet-Img' src={elPollito} alt="Pollos" />
+          <div>          
+            <img className='llopo-Img' src={pollos} alt="Pollos" />
+            <div className='llopo-Img-container'>
+              <img className='llopo-Img' src={rio} alt="Rio" />
+              <img className='llopo-Img' src={arriba} alt="Arriba" />
+            </div>
+          </div>
+
         </header>
         <aside className='mainHome-leftCoontent'>
           <Carousel />

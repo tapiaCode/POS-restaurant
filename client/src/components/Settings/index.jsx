@@ -2,8 +2,7 @@ import { useEffect, useState } from "react"
 import "./index.scss"
 import Cabecera from "../Cabecera"
 import { Link, useNavigate } from "react-router-dom"
-import {shield,lenguaje,notification,home,bill,user
-} from "../../assets/icons"
+import {shield,lenguaje,notification,home,bill,user} from "../../assets/icons"
 import RightSideSettingSkeleton from "../RightSideSettingSkeleton"
 import ApearenceSettings from "./Apearence"
 import NotificationSetting from "./Notification"
@@ -97,7 +96,7 @@ const SettingsOptions = ({children,currentSettings,setCurrentSettings,setIsLoadi
 
 const RightSideSetting = ({currentSettings})=>{
   return(
-    <section className="settingContainer right-side moveOuts">esto es el otro ladao
+    <section className="settingContainer right-side moveOuts">esto es el otro lado
       <h2>{currentSettings}</h2>
     </section>
 
