@@ -1,156 +1,83 @@
 export const dataBurgerFoods = [
     {
         id: 1,
-        name: "La Simplesita",
+        name: "Economico",
         size: "200g",
-        price: 10,
+        price: 13,
     },
     {
         id: 2,
-        name: "Cheese-Burger",
+        name: "Cuarto",
         size: "400g",
-        price: 20,
+        price: 24,
     },
     {
         id: 3,
-        name: "De Pollito Criollo",
+        name: "Medio",
         size: "500g",
-        price: 25,
+        price: 48,
     },
     {
         id: 4,
-        name: "la Machu",
+        name: "Entero",
         size: "500g",
-        price: 27,
+        price: 75,
     },
-    {
-        id: 5,
-        name: "Super Burger",
-        size: "600g",
-        price: 30,
-    },
-    {
-        id: 6,
-        name: "Clasica Burger",
-        size: "200g",
-        price: 10,
-    }
 ]
 
 export const dataPizzaFoods = [
     {
         id: 1,
-        name: "Pizza Margarita",
-        size: "Mediano",
-        price: 10,
+        name: "Economico",
+        size: "200g",
+        price: 13,
     },
     {
         id: 2,
-        name: "Pepperoni Pizza",
-        size: "Grande",
-        price: 15,
+        name: "Cuarto",
+        size: "400g",
+        price: 24,
     },
     {
         id: 3,
-        name: "Vegetariana Pizza",
-        size: "Mediano",
-        price: 12,
+        name: "Medio",
+        size: "500g",
+        price: 48,
     },
     {
         id: 4,
-        name: "Hawaiana Pizza",
-        size: "Grande",
-        price: 17,
+        name: "Entero",
+        size: "500g",
+        price: 75,
     },
-    {
-        id: 5,
-        name: "Suprema Pizza",
-        size: "Grande",
-        price: 20,
-    },
-    {
-        id: 6,
-        name: "Pizza de Kjacha",
-        size: "Mediano",
-        price: 10,
-    }
 ]
 
 export const dataWokFoods = [
     {
         id: 1,
-        name: "Sopa de Pollo",
+        name: "Alitas a la Canasta",
         size: "Mediano",
-        price: 10,
-    },
-    {
-        id: 2,
-        name: "Caldo de Cardan",
-        size: "Grande",
         price: 15,
     },
     {
-        id: 3,
-        name: "Sopa de Riñon",
-        size: "Mediano",
-        price: 12,
-    },
-    {
-        id: 4,
-        name: "Sopa de Pescado",
+        id: 2,
+        name: "Alitas con Arroz",
         size: "Grande",
         price: 17,
-    },
-    {
-        id: 5,
-        name: "Sopa Vegetariana",
-        size: "Grande",
-        price: 20,
-    },
-    {
-        id: 6,
-        name: "Caldo de Nervio Mixto",
-        size: "Mediano",
-        price: 10,
-    
     }
 ]
 export const dataPastaFoods = [
     {
         id: 1,
-        name: "Tallarin de Pollo",
+        name: "Pipocas Kids",
         size: "Mediano",
         price: 10,
     },
     {
         id: 2,
-        name: "Tallarin de Chancho",
-        size: "Grande",
-        price: 15,
-    },
-    {
-        id: 3,
-        name: "Tallarin de Res",
-        size: "Mediano",
-        price: 12,
-    },
-    {
-        id: 4,
-        name: "Tallarin de Conejo",
-        size: "Grande",
-        price: 17,
-    },
-    {
-        id: 5,
-        name: "Pasta Alfredo",
+        name: "Pipocas de Pollo",
         size: "Grande",
         price: 20,
-    },
-    {
-        id: 6,
-        name: "Pasta Carbonara",
-        size: "Mediano",
-        price: 10,
     }
 ]
 
@@ -196,38 +123,20 @@ export const dataDrinksFoods = [
 export const dataDessertsFoods = [
     {
         id: 1,
-        name: "Gelatina de colores",
-        size: "Mediano",
-        price: 10,
+        name: "Locro Sencillo",
+        size: "Pequeño",
+        price: 3,
     },
     {
         id: 2,
-        name: "Arroz con leche",
-        size: "Grande",
-        price: 15,
+        name: "Locro Con Presa",
+        size: "Normal",
+        price: 5,
     },
     {
         id: 3,
-        name: "Heladito de leche",
-        size: "Mediano",
-        price: 12,
-    },
-    {
-        id: 4,
-        name: "Fresas con Crema",
+        name: "Locro en Olla",
         size: "Grande",
-        price: 17,
-    },
-    {
-        id: 5,
-        name: "Pie con Mermelada de frutilla",
-        size: "Grande",
-        price: 20,
-    },
-    {
-        id: 6,
-        name: "Budin de Chocolate",
-        size: "Mediano",
         price: 10,
     }
 ]

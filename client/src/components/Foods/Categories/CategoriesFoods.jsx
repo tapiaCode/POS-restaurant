@@ -1,38 +1,38 @@
-import burgerImgCategory from "../../../assets/img/dishes/category-burger.png"
-import pizzaImgCategory from "../../../assets/img/dishes/category-pizza.webp"
+import burgerImgCategory from "../../../assets/img/rio/brasa.png"
+import pizzaImgCategory from "../../../assets/img/rio/broaster.png"
 import drinksImgCategory from "../../../assets/img/dishes/category-drinks.png"
-import pastaImgCategory from "../../../assets/img/dishes/category-pasta.png"
-import dessertsImgCategory from "../../../assets/img/dishes/category-desserts.png"
-import wokImgCategory from "../../../assets/img/dishes/category-wok.png"
+import pastaImgCategory from "../../../assets/img/rio/pipo.png"
+import dessertsImgCategory from "../../../assets/img/rio/locro.png"
+import wokImgCategory from "../../../assets/img/rio/alita.png"
 import { Link } from "react-router-dom"
 const categoriesFoodsLabels = [
     {
         id: 1,
-        name: "Hamburguesas",
+        name: "Pollo Brasa",
         img: burgerImgCategory,
         path: "/dashboard/food-drinks/burgers"
     },
     {
         id: 2,
-        name: "Pizza",
+        name: "Pollo Broaster",
         img: pizzaImgCategory,
         path: "/dashboard/food-drinks/pizzas"
     },
     {
         id: 3,
-        name: "Sopas",
+        name: "Alitas a la canasta",
         img: wokImgCategory,
         path: "/dashboard/food-drinks/wok"
     },
     {
         id: 4,
-        name: "Tallarines",
+        name: "Pipocas de Pollo",
         img: pastaImgCategory,
         path: "/dashboard/food-drinks/pasta"
     },
     {
         id: 5,
-        name: "Postres",
+        name: "Locro",
         img: dessertsImgCategory,
         path: "/dashboard/food-drinks/desserts"
     },

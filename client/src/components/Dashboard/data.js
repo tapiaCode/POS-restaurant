@@ -1,6 +1,6 @@
 export const employees = [
     {
-        name: 'Andrea Tapia',
+        name: 'Roberto Paniagua',
         position: 'Administradora',
         avatar: 'https://img.freepik.com/foto-gratis/retrato-hombre-feliz-sonriente_23-2149022620.jpg?w=1380&t=st=1700106484~exp=1700107084~hmac=4d20a89bf22a4e3ebe6fc4cd073d8622a053af3cc0b1c47cfc1a84e181625bce',
         earnings: 1000
@@ -28,22 +28,22 @@ export const employees = [
 
 export const foods = [
     {
-        name: 'Pizza',
+        name: 'Pollo Broaster',
         price: 10,
-        image: 'https://images.unsplash.com/photo-1586816001966-79b736744398?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aGFtYnVyZ3VlcnxlbnwwfHwwfHx8MA%3D%3D'
+        image: '../assets/img/rio/broaster.png'
     },
     {
-        name: 'Hamburguesa',
+        name: 'Pipocas de Pollo',
         price: 15,
         image: 'https://images.unsplash.com/photo-1586816001966-79b736744398?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aGFtYnVyZ3VlcnxlbnwwfHwwfHx8MA%3D%3D'
     },
     {
-        name: 'Hot Dog',
+        name: 'Alitas a la Canasta',
         price: 5,
         image: 'https://images.unsplash.com/photo-1586816001966-79b736744398?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aGFtYnVyZ3VlcnxlbnwwfHwwfHx8MA%3D%3D'
     },
     {
-        name: 'Sandwich',
+        name: 'Locros',
         price: 7,
         image: 'https://images.unsplash.com/photo-1586816001966-79b736744398?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aGFtYnVyZ3VlcnxlbnwwfHwwfHx8MA%3D%3D'
     }

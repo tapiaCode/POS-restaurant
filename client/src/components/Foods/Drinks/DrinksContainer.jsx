@@ -1,6 +1,6 @@
 import FoodCard from "../FoodCard"
 import {dataDrinksFoods} from "../mockdata.js"
-import defectImgFood from "../../../assets/img/dishes/default-img-soda.webp"
+import defectImgFood from "../../../assets/img/rio/sodas.png"
 
 
 const DrinksContainer = () => {

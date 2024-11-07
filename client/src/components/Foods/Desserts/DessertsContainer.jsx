@@ -1,12 +1,12 @@
 import FoodCard from "../FoodCard"
 import {dataDessertsFoods} from "../mockdata.js"
-import defectImgFood from "../../../assets/img/dishes/default-img-desserts.webp"
+import defectImgFood from "../../../assets/img/rio/locro.png"
 
 const DessertsContainer = () => {
     return (
         <section className="md:px-10">
             <header>
-                <h2 className="font-GilroyBold text-4xl text-black mb-3">Postres</h2>
+                <h2 className="font-GilroyBold text-4xl text-black mb-3">Locros</h2>
             </header>
             <div className="grid md:grid-cols-4 gap-8">
                 {
